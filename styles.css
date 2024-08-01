@@ -3,7 +3,7 @@
 /* General body styling */
 body {
     font-family: Arial, sans-serif; /* Sets the font for the entire page to Arial. If Arial is unavailable, use a generic sans-serif font. */
-    background-color: #f4f4f4; /* Sets the background color of the page to a light gray. */
+    background-color: #FFFFFF; /* Sets the background color of the page to white. */
     color: #333; /* Sets the text color to a dark gray for good readability against the background. */
     margin: 0; /* Removes the default margin around the body to ensure full-width content. */
     padding: 0; /* Removes the default padding around the body. */
