@@ -25,6 +25,15 @@ h2 {
     max-width: 800px; /* Matching width with <p> */
 }
 
+/* Styling for <h3> elements */
+h3 {
+    color: #000080; /* Corrected color code */
+    text-align: center; /* Align text to the center */
+    padding: 20px;
+    margin: 0 auto; /* Adjust margin as needed */
+    max-width: 800px; /* Matching width with <p> */
+}
+
 /* Styling for <p> elements */
 p {
     max-width: 800px; /* Matching width with <h2> */
