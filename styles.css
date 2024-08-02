@@ -7,6 +7,14 @@ body {
     padding: 0;
 }
 
+/* Styling for <h0> elements */
+h0 {
+    color: #5d6d7e; /* Corrected color code */
+    text-align: center; /* Matches <p> alignment */
+    padding: 20px;
+    margin: 20px auto; /* Matching margin with <p> */
+    max-width: 800px; /* Matching width with <p> */
+
 /* Styling for <h1> elements */
 h1 {
     color: #5d6d7e; /* Corrected color code */
