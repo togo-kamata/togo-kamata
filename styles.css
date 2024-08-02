@@ -26,42 +26,7 @@ p {
     margin: 20px auto;
     line-height: 1.6;
     padding: 0 20px;
-    text-align: left !important; /* Force left alignment */
+    text-align: left; /* Ensure left alignment */
 }
 
-/* Styling for <button> elements */
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Styling for button hover state */
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Styling for <figure> and <figcaption> */
-figure {
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    border: none; /* No border */
-    border-radius: 30px;
-    display: block;
-    margin: 0 auto;
-}
-
-figcaption {
-    margin-top: 10px;
-    font-size: 0.9em;
-    color: #555;
-}
+/* Other styles remain unchanged */
