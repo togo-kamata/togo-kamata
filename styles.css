@@ -41,7 +41,7 @@ figure {
 }
 
 img {
-    max-width: 100%;
+    max-width: 800px;
     height: auto;
     border: none; /* No border */
     border-radius: 30px;
