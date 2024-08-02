@@ -20,18 +20,10 @@ h1 {
 h2 {
     color: #000080; /* Dark blue color */
     text-align: left; /* Align text to the left */
-    padding: 0 20px; /* Add same padding as <p> */
-    margin: 20px auto; /* Center horizontally with margin auto */
-    max-width: 800px; /* Matching width with <p> */
-}
-
-/* Styling for <h3> elements */
-h3 {
-    color: #000080; /* Dark blue color */
-    text-align: center; /* Align text to the center */
     padding: 20px;
-    margin: 20px auto; /* Centering horizontally */
+    margin: 20px auto; /* Center horizontally */
     max-width: 800px; /* Matching width with <p> */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 /* Styling for <p> elements */
