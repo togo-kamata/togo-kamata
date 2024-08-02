@@ -1,50 +1,67 @@
-/* styles.css */
-
 /* General body styling */
 body {
-    font-family: Arial, sans-serif; /* Sets the font for the entire page to Arial. If Arial is unavailable, use a generic sans-serif font. */
-    background-color: #FFFFFF; /* Sets the background color of the page to white. */
-    color: #333; /* Sets the text color to a dark gray for good readability against the background. */
-    margin: 0; /* Removes the default margin around the body to ensure full-width content. */
-    padding: 0; /* Removes the default padding around the body. */
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 /* Styling for <h1> elements */
 h1 {
-    color: #007BFF; /* Sets the text color of <h1> elements to a bright blue. */
-    text-align: center; /* Centers the text of <h1> elements horizontally within their container. */
-    padding: 20px; /* Adds 20 pixels of padding around the <h1> element, creating space inside the element. */
+    color: #007BFF;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 /* Styling for <h2> elements */
 h2 {
-    color: #007BFF; /* Sets the text color of <h2> elements to a bright blue. */
-    text-align: left; /* Left aligns <h2> elements horizontally within their container. */
-    max-width: 800px; /* Limits the maximum width of <h2> elements to 800 pixels, ensuring lines of text are not too wide for readability. */
-    padding: 20px; /* Adds 20 pixels of padding around the <h2> element, creating space inside the element. */
+    color: #007BFF;
+    text-align: center; /* Matches <p> alignment */
+    padding: 20px;
+    margin: 20px auto; /* Matching margin with <p> */
+    max-width: 800px; /* Matching width with <p> */
 }
-    
+
 /* Styling for <p> elements */
 p {
-    max-width: 800px; /* Limits the maximum width of <p> elements to 800 pixels, ensuring lines of text are not too wide for readability. */
-    margin: 20px auto; /* Adds 20 pixels of margin above and below each <p> element and centers it horizontally within its container. */
-    line-height: 1.6; /* Sets the line height to 1.6 times the font size, improving readability by adding space between lines of text. */
-    padding: 0 20px; /* Adds 20 pixels of padding to the left and right of <p> elements, creating space inside the element. */
+    max-width: 800px; /* Matching width with <h2> */
+    margin: 20px auto; /* Centering <p> horizontally with margin */
+    line-height: 1.6;
+    padding: 0 20px; /* Padding inside <p> */
 }
 
 /* Styling for <button> elements */
 button {
-    background-color: #007BFF; /* Sets the background color of the button to bright blue. */
-    color: white; /* Sets the text color of the button to white. */
-    border: none; /* Removes the default border of the button, giving it a cleaner look. */
-    padding: 10px 20px; /* Adds 10 pixels of padding vertically and 20 pixels horizontally inside the button. */
-    border-radius: 5px; /* Rounds the corners of the button with a 5-pixel radius. */
-    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button, indicating it's clickable. */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Styling for button hover state */
 button:hover {
-    background-color: #0056b3; /* Changes the background color of the button to a darker blue when hovered over. */
+    background-color: #0056b3;
+}
+
+/* Styling for <figure> and <figcaption> */
+figure {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 
 figcaption {
