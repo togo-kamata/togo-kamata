@@ -58,8 +58,8 @@ figure {
 img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #ddd;
-    border-radius: 4px;
+    border: 0px solid #00FFFFFF;
+    border-radius: 30px;
     display: block;
     margin: 0 auto;
 }
