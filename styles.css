@@ -16,12 +16,12 @@ h1 {
     max-width: 800px;
 }
 
-/* Styling for <h3> elements */
-h3 {
+/* Styling for <h2> elements */
+h2 {
     color: #000080; /* Dark blue color */
-    text-align: center; /* Center align text */
+    text-align: left; /* Align text to the left */
     padding: 20px;
-    margin: 20px auto; /* Centering horizontally */
+    margin: 20px 0; /* Matching margin with <p> */
     max-width: 800px; /* Matching width with <p> */
 }
 
