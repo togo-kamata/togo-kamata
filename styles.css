@@ -7,30 +7,26 @@ body {
     padding: 0;
 }
 
-/* Styling for <h1> elements */
 h1 {
-    color: #000080; /* Dark blue color */
+    font-size: 2em;
+    color: #2e4053;
     text-align: center;
     padding: 20px;
-    margin: 0 auto;
-    max-width: 800px;
 }
 
-/* Styling for <h2> elements */
 h2 {
-    color: #000080; /* Dark blue color */
+    font-size: 1.75em;
+    color: #2e4053;
     text-align: center;
     padding: 20px;
-    margin: 0 auto;
-    max-width: 800px;
 }
 
-/* Styling for <p> elements */
 p {
-    max-width: 800px; /* Matching width with <h2> */
-    margin: 20px auto; /* Centering <p> horizontally */
+    max-width: 800px;
+    margin: 20px auto;
     line-height: 1.6;
-    padding: 0 20px; /* Padding inside <p> */
+    padding: 0 20px;
+    text-align: center;
 }
 
 /* Styling for <button> elements */
