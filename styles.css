@@ -28,5 +28,29 @@ p {
     padding: 0 20px;
     text-align: left; /* Ensure left alignment */
 }
+/* Styling for button hover state */
+button:hover {
+    background-color: #0056b3;
+}
 
-/* Other styles remain unchanged */
+/* Styling for <figure> and <figcaption> */
+figure {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: none; /* No border */
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
