@@ -16,6 +16,14 @@ h1 {
     padding: 20px; /* Adds 20 pixels of padding around the <h1> element, creating space inside the element. */
 }
 
+/* Styling for <h2> elements */
+h2 {
+    color: #007BFF; /* Sets the text color of <h2> elements to a bright blue. */
+    text-align: left; /* Left aligns <h2> elements horizontally within their container. */
+    max-width: 800px; /* Limits the maximum width of <h2> elements to 800 pixels, ensuring lines of text are not too wide for readability. */
+    padding: 20px; /* Adds 20 pixels of padding around the <h2> element, creating space inside the element. */
+}
+    
 /* Styling for <p> elements */
 p {
     max-width: 800px; /* Limits the maximum width of <p> elements to 800 pixels, ensuring lines of text are not too wide for readability. */
