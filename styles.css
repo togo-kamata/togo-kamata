@@ -9,7 +9,7 @@ body {
 
 /* Styling for <h1> elements */
 h1 {
-    color: #000080; /* Corrected color code */
+    color: #000080; /* Dark blue color */
     text-align: center;
     padding: 20px;
     margin: 0 auto;
@@ -18,19 +18,19 @@ h1 {
 
 /* Styling for <h2> elements */
 h2 {
-    color: #000080; /* Corrected color code */
+    color: #000080; /* Dark blue color */
     text-align: left; /* Align text to the left */
     padding: 20px;
-    margin: 20px 0; /* Adjust margin as needed */
+    margin: 20px 0; /* Matching margin with <p> */
     max-width: 800px; /* Matching width with <p> */
 }
 
 /* Styling for <h3> elements */
 h3 {
-    color: #000080; /* Corrected color code */
+    color: #000080; /* Dark blue color */
     text-align: center; /* Align text to the center */
     padding: 20px;
-    margin: 0 auto; /* Adjust margin as needed */
+    margin: 20px auto; /* Centering horizontally */
     max-width: 800px; /* Matching width with <p> */
 }
 
@@ -67,7 +67,7 @@ figure {
 img {
     max-width: 100%;
     height: auto;
-    border: 0px solid #00FFFFFF;
+    border: none; /* No border */
     border-radius: 30px;
     display: block;
     margin: 0 auto;
