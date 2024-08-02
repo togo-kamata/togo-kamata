@@ -9,7 +9,7 @@ body {
 
 /* Styling for <h1> elements */
 h1 {
-    color: #007BFF;
+    color: ##2e4053;
     text-align: center;
     padding: 20px;
     margin: 0 auto;
@@ -18,7 +18,7 @@ h1 {
 
 /* Styling for <h2> elements */
 h2 {
-    color: #007BFF;
+    color: ##2e4053;
     text-align: center; /* Matches <p> alignment */
     padding: 20px;
     margin: 20px auto; /* Matching margin with <p> */
