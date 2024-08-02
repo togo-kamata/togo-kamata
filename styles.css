@@ -18,10 +18,10 @@ h1 {
 
 /* Styling for <h2> elements */
 h2 {
-    color: #000080; /* Dark blue color */
+    color: #000080; /* Corrected color code */
     text-align: left; /* Align text to the left */
-    padding: 20px;
-    margin: 20px 0; /* Matching margin with <p> */
+    padding: 0 20px; /* Add same padding as <p> */
+    margin: 20px 0; /* Margin to match <p> */
     max-width: 800px; /* Matching width with <p> */
 }
 
