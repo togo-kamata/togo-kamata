@@ -46,3 +46,9 @@ button {
 button:hover {
     background-color: #0056b3; /* Changes the background color of the button to a darker blue when hovered over. */
 }
+
+figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
