@@ -19,11 +19,10 @@ h1 {
 /* Styling for <h2> elements */
 h2 {
     color: #000080; /* Dark blue color */
-    text-align: left; /* Align text to the left */
+      text-align: center;
     padding: 20px;
-    margin: 20px auto; /* Center horizontally */
-    max-width: 800px; /* Matching width with <p> */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 /* Styling for <p> elements */
