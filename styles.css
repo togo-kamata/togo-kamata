@@ -5,6 +5,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    padding-bottom: 50px; /* Ensure some space at the bottom of the page */
 }
 
 h1 {
@@ -28,6 +29,7 @@ p {
     padding: 0 20px;
     text-align: left; /* Ensure left alignment */
 }
+
 /* Styling for button hover state */
 button:hover {
     background-color: #0056b3;
