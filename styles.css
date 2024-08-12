@@ -56,3 +56,16 @@ figcaption {
     font-size: 0.9em;
     color: #555;
 }
+
+/* Styling for ordered lists */
+ol {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 40px;
+    list-style-type: decimal;
+}
+
+ol li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
