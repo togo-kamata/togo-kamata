@@ -5,35 +5,35 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    padding-bottom: 50px; /* Ensure some space at the bottom of the page */
+    padding-bottom: 3em; /* Adjusted for spacing at the bottom */
 }
 
 h1 {
     font-size: 2em;
     color: #2e4053;
     text-align: center;
-    padding: 20px;
+    padding: 1em;
 }
 
 h2 {
     font-size: 1.75em;
     color: #2e4053;
     text-align: center;
-    padding: 20px;
+    padding: 1em;
 }
 
 h3 {
     font-size: 1.5em;
     color: #2e4053;
     text-align: center;
-    padding: 20px;
+    padding: 1em;
 }
 
 p {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 50em; /* Approximately 800px at 16px base font size */
+    margin: 1.25em auto; /* Adjusted margin for spacing */
     line-height: 1.6;
-    padding: 0 20px;
+    padding: 0 1.25em; /* Adjusted padding for spacing */
     text-align: left; /* Ensure left alignment */
 }
 
@@ -44,35 +44,44 @@ button:hover {
 
 /* Styling for <figure> and <figcaption> */
 figure {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 50em; /* Approximately 800px at 16px base font size */
+    margin: 1.25em auto; /* Adjusted margin for spacing */
     text-align: center;
 }
 
 img {
-    max-width: 800px;
+    max-width: 100%;
     height: auto;
     border: none; /* No border */
-    border-radius: 30px;
+    border-radius: 1.875em; /* 30px at 16px base font size */
     display: block;
     margin: 0 auto;
 }
 
 figcaption {
-    margin-top: 10px;
+    margin-top: 0.625em; /* Adjusted margin for spacing */
     font-size: 0.9em;
     color: #555;
+    text-align: left; /* Ensure left alignment */
 }
 
-/* Styling for ordered lists */
-ol {
-    max-width: 800px;
-    margin: 20px auto;
-    padding-left: 40px;
-    list-style-type: decimal;
+/* Styling for ordered and unordered lists */
+ol, ul {
+    max-width: 50em; /* Approximately 800px at 16px base font size */
+    margin: 1.25em auto; /* Adjusted margin for spacing */
+    padding-left: 2.5em; /* Adjusted padding for spacing */
 }
 
-ol li {
-    margin-bottom: 10px;
+li {
+    margin-bottom: 0.625em; /* Adjusted margin for spacing */
     line-height: 1.6;
 }
+
+ul {
+    list-style-type: disc; /* Default bullet points */
+}
+
+ol {
+    list-style-type: decimal; /* Default numbered points */
+}
+
