@@ -29,6 +29,13 @@ h3 {
     padding: 1em;
 }
 
+h4 {
+    font-size: 1.25em;
+    color: #2e4053;
+    text-align: center;
+    padding: 1em;
+}
+
 p {
     max-width: 50em; /* Approximately 800px at 16px base font size */
     margin: 1.25em auto; /* Adjusted margin for spacing */
