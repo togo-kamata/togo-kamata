@@ -29,7 +29,13 @@
 <h3>1. A Comparison (Indirect and Not Fair) of Similar Variables Between the Bus and the Train</h3>
     <p>Since we don't have all the data we need yet, we will at least work with what we have and see what happens. Note that this is to see a general trend we might expect, or just performing statistical analysis for the sake of doing so, because as we are comparing northbound and southbound runs on different modes, important variables are not being controlled, and therefore, our comparison here generally should not be taken too seriously. As we do our statistical analysis, we will need to find the mean and root mean squared error (RMSE). The mean is simply the average, the sum of all data point values divided by the number of data points. It generally serves to show a good approximation of all the data points as a single value. The RMSE is a bit more complicated. To find the RMSE, we start by finding the difference between each data point and the mean. We square each difference, and then sum them together for all data points. We then divide the sum by the number of datapoints minus 1, then take the square root of the number. This is our RMSE, and is a measure of how spread out our data points are from the aforementioned mean. </p>
     <h4>Comparing Total Transit Time Between the Bus and Train</h4>
-    <p></p>
+    <p>I first started by converting the total time it took for each run into seconds from minutes and seconds, for both the northbound train run and the southbound bus run. The results were as follows. Numbers with more significant figures were rounded to the significant figure, and the numbers with less significant figures were rounded so that the precision of the digits matched that of the number with more significant figures.</p>
+    <ul>
+        <li>Mean and RMSE for northbound train total trip time: 1420.2 &pm; 315.2 [s] </li>
+        <li>Mean and RMSE for southbound train total trip time: 823.4 &pm; 46.3 [s]</li>
+    </ul>
+
+    
     
   </body>
   </html>
