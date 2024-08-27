@@ -14,5 +14,20 @@
    
     <p>I'm going to perform some statistical analysis of the data despite this data being inaccurate. Perhaps, I'll find something out you know? And besides, it'll be good preparation for when I do acutally collect good data. Now, we can't compare whether the subway or the bus is faster for north our south runs, the ultimate goal of this study as we only have one mode of transportation for each direction, and the data we have anyway is invalid. What we can do however, is for example, take the mean and root mean squared error (RMSE) of the wait times for the subway and comparing it to the official result, or measuring the speeds of the subway on the surface section and subway section and comparing them. We can also take the average time between two points on the subway ride and compare them to the official schedule to see it's on time performance. This would be more difficult to achieve with the buses, as there are multiple routes running in the same direction, but as for our run on 8/8, we somehow only rode the 45, we may be able to find something out for that specific route. It likely won't be useful later, as I imagine on future runs we will ride the 30 or 15, not just the 45, but it'll be a fun little sidequest. </p> 
 
+    <p>In this article we will cover</p>
+    <ol>
+        <li>1. A comparison (albeit indirect and not fair) of similar variables between the bus and train.</li>
+        <li>2. And other comparisons that we might choose to do later.</li>
+    </ol>
+
+    <p>Recall from the previous article, the data we collected. The data recorded is shown below in the image, a spreadsheet with all my times recorded. This data is invalidated for many reasons, and the runs highlighted in red are the possibly inaccurate data due to the fumbles I made. The reasons why said data is inaccurate is detailed to the right of the respective runs. </p>
+    <figure>
+        <img src="image_central subway_2_Study Chart Template - 8_8 Failed Northbound Subway, Southbound Bus.jpg" alt = "Chart showing the data from 8/8">
+        <figcaption>The chart showing the data from my invalidated runs on 8/8. Inaccurate data due to my fumbles are highlighted in red. Not all variables have been measured and / or recorded.</figcaption>
+    </figure>
+
+<h3>1. A Comparison (Indirect and Not Fair) of Similar Variables Between the Bus and the Train</h3>
+    <p>Since we don't have all the data we need yet, we will at least work with what we have and see what happens. Note that this is to see a general trend we might expect, or just performing statistical analysis for the sake of doing so, because as we are comparing northbound and southbound runs on different modes, important variables are not being controlled, and therefore, our comparison here generally should not be taken too seriously. As we do our statistical analysis, we will need to find the mean and root mean squared error (RMSE). The mean is simply the average, the sum of all data point values divided by the number of data points. It generally serves to show a good approximation of all the data points as a single value. The RMSE is a bit more complicated. To find the RMSE, we start by finding the difference between each data point and the mean. We square each difference, and then sum them together for all data points. We then divide the sum by the number of datapoints minus 1, then take the square root of the number. This is our RMSE, and is a measure of how spread out our data points are from the aforementioned mean. 
+    
   </body>
   </html>
